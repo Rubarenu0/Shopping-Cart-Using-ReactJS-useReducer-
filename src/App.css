@@ -1,0 +1,55 @@
+body{
+  background-image: linear-gradient(to right,#987070,#C39898,#DBB5B5,#CA8787);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+  text-align: center;
+}
+.App{
+  display: flex;
+  margin-top: 30px;
+}
+.row{
+  display: block;
+  border: 1px ;
+  border-radius: 20px;
+  margin-left: 260px;
+  width: 30%;
+}
+.col{
+  border: 1px ;
+  border-radius: 20px;
+  margin-left: 20px;
+  width: 30%;
+}
+.row1,.row2,.row3,.row4{
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+.col1{
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 40%;
+  margin: 50px;
+  margin-left: 120px;
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+}
+button{
+  margin: 10px;
+  border: 1px solid brown;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  background-color: brown;
+}
+p{
+  text-align: justify;
+  margin-left: 50px;
+}
